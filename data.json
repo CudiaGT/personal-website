@@ -1,0 +1,108 @@
+{
+  "header": {
+    "logo": {
+      "src": "https://cdn.glitch.global/bc47885f-fe0e-4dd7-aa13-973cb7c6b75b/logo.png?v=1728413976748",
+      "alt": "logo",
+      "link": "index.html#home"
+    },
+    "navItems": [
+      { "title": "About", "link": "index.html#about" },
+      { "title": "Skills", "link": "index.html#skills" },
+      { "title": "News", "link": "index.html#news" },
+      { "title": "Projects", "link": "index.html#projects" }
+    ]
+  },
+  "home": {
+    "firstName": "Harim",
+    "lastName": " Kim",
+    "subtitle1": "CS Major",
+    "subtitle2": " @ Boston College",
+    "profileImage": "https://cdn.glitch.global/bc47885f-fe0e-4dd7-aa13-973cb7c6b75b/profile.jpeg?v=1728414012670",
+    "alt": "profile"
+  },
+  "about": {
+    "title": "About Me",
+    "intro": "Hello!",
+    "content": "My name is Harim Kim and I am a senior at Boston College currently majoring in computer science. My biggest passion is in the distribution of Software as a Service to enhance the quality of life for others, especially through the means of application development. My ultimate goal is to combine developmental psychology and the psychology of education along with machine learning to provide customized education services around the world.",
+    "contacts": [
+      { "icon": "fa-solid fa-paper-plane", "link": "" },
+      {
+        "icon": "fa-brands fa-linkedin",
+        "link": "https://www.linkedin.com/in/harim-kim-cudia/"
+      },
+      {
+        "icon": "fa-brands fa-square-github",
+        "link": "https://github.com/CudiaGT?tab=repositories"
+      }
+    ]
+  },
+  "skills": [
+    {
+      "category": "Language",
+      "skills": [
+        { "icon": "fa-brands fa-html5", "name": "HTML5" },
+        { "icon": "fa-brands fa-css3-alt", "name": "CSS3" },
+        { "icon": "fa-brands fa-python", "name": "Python" },
+        { "icon": "fa-brands fa-java", "name": "Java" }
+      ]
+    },
+    {
+      "category": "Tool/Library",
+      "skills": [
+        { "icon": "fa-brands fa-react", "name": "React" },
+        { "icon": "fa-brands fa-git-alt", "name": "Git" },
+        { "icon": "fa-brands fa-aws", "name": "AWS" },
+        { "icon": "fa-brands fa-figma", "name": "Figma" }
+      ]
+    }
+  ],
+  "news": [
+    {
+      "title": "App Development",
+      "icon": "fa-brands fa-app-store",
+      "description": "Recently, I was able to finish coding a personal review website, where I am hoping to upload my thoughts and impressions on books and movies that I read and watch, along with restaurants and golf courses that I have visited. My next project will be to develop an iOS application called 'Fireplace', which will be a useful application for musicians to find fellow local musicians to play and perform together."
+    },
+    {
+      "title": "Club Activity",
+      "icon": "fa-solid fa-code",
+      "description": "As an executive board member at the Boston College Computer Science Society, I was able to host Hack the Heights, the annual hackathon at Boston College. This year's hackathon took place on the 5th and 6th of October and turned out to be the most successful hackathon during my years at Boston College with over 80 participants and 12 submissions."
+    },
+    {
+      "title": "Sports",
+      "icon": "fa-solid fa-golf-ball-tee",
+      "description": "2024 golf season is almost over due to the weathers and I think I will be able to play around one or two more rounds before it starts snowing. I was unable to play as much golf this year due to a busy summer, but I am happy that I was able to at least maintain my skills. I recently started playing tennis again with my roommates and I am hoping that it will continue to be a sport that I can play throughout the winter."
+    },
+    {
+      "title": "Video Game",
+      "icon": "fa-solid fa-gamepad",
+      "description": "2024 League of Legends World Championship has begun! Although it was upsetting to see that my favorite team, Kwangdong Freecs, was unable to make it World this year, I am supporting for all the Korean teams who made it, and I am also looking forward to seeing a lot of great games."
+    }
+  ],
+  "projects": [
+    {
+      "id": "hack-the-heights",
+      "title": "Hack the Heights Website",
+      "description": "Hack the Heights website was a group project hosted by Boston College Computer Science Society. The goal of the project was to create a website that can both provide information regarding the Hack the Heights, the annual hackathon at Boston College. The website also included features to aid registration for the hackathon itself, as well as the HTH lab series, a series of workshops to aid freshmen and non-cs majors in preparing for the hackathon.",
+      "image": "https://cdn.glitch.global/bc47885f-fe0e-4dd7-aa13-973cb7c6b75b/Hack%20the%20Heights.jpeg?v=1729180144653",
+      "link": "https://hacktheheights.org/",
+      "info": {
+        "duration": "April 2024 - August 2024",
+        "tools": "Figma, HTML5, CSS3, React"
+      }
+    },
+    {
+      "id": "linear-programming-solver",
+      "title": "Linear Programming Solver",
+      "description": "The Linear Programming Solver originally started as an assignment for the Fundamentals of Operations Research course provided at Boston College. The goal of this project was to build on top of the linear programming solver assigned as one of the assignments to incorporate features that allow the solver to deal with linear programming problems in integers and incorporate visual components through utilization of the Matplotlib library in Python. The project mainly utilizes the Branch and Bound approach for integer linear programming and uses the SymPy library for matrix computation.",
+      "image": "https://cdn.glitch.global/bc47885f-fe0e-4dd7-aa13-973cb7c6b75b/ILP.png?v=1729181927096",
+      "link": "https://github.com/CudiaGT/personal-linear-programming-solver",
+      "info": {
+        "duration": "March 2024 - June 2024",
+        "tools": "Python, MatPlotLib (pyplot), SymPy"
+      }
+    }
+  ],
+  "footer": {
+    "text": "© 2024 Harim Kim. All rights reserved."
+  }
+}
